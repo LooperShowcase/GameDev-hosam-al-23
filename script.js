@@ -22,7 +22,6 @@ function shuffleCards(){
     let currentIndex = cards.length;
     let randomIndex;
     let temporaryValue;
-    generateCards()
 
     while (currentIndex >0){
         randomIndex = Math.floor(Math.random()*currentIndex);
