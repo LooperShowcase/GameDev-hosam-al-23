@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Card Game </title>
-</head>
-<body>
-    <h1>Memory Cards</h1>
-    <div id="cards">
-        
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Cards Game</h1>
+    <div id="cards"></div>
+    <p>Score: <span id="score"></span></p>
+    <center>    
+      
+      <div id="actions">
+       <button onclick="restart()"  id="restart">Restart</button>
     </div>
-
-    <div id="actions">
-        <p>Score: <span id="score"></span></p>
-       <center> <button onclick="restart()"  id="restart">Restart</button> </center>
-    </div>
+    </center>
     
-    <script src="script.js"></script>
-    <script src="confetti.js"></script>
-</body>
+  </body>
+  <script src="script.js"></script>
+  <script src="confetti.js"></script>
 </html>
